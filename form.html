@@ -1,0 +1,152 @@
+<header class="page-header">
+	<nav class="main-nav">
+		<ul class="main-nav">
+
+			<li class="main-nav">Главная</li>
+			<li class="main-nav">Фото и Видео</li>
+			<li class="main-nav">Форма отзыва</li>
+			<li class="main-nav">HTML Academy</li>
+
+		</ul>
+
+
+
+	</nav>
+
+	<div class="page-header__logo">
+		<img src="" widht="" height="" alt="">
+
+	</div>
+	<div class="page-header__photo1">
+		<img src="" widht="" height="" alt="">
+	</div>
+</header>
+
+<span class="main-nav__toggler"><span></span></span>
+
+<main>
+
+	<section class="form-head">
+
+		<h2>  Оставьте свой отзыв  </h2>
+
+		<p>  Помогите нашим отелям стать лучше!
+			Оставьте отзыв о них, А также о
+			посещенных вами
+			достопримечательностях  </p>
+	</section>
+
+	<form action="https://echo.htmlacademy.ru/" method="post" >
+
+		<fieldset class="form-name__name">
+
+			<legend>Представьтесь:</legend>
+
+			<label for="name" >Имя*:</label>
+			<input type="text" id="name" name="name" value="Петр" required></input>
+
+			<label for="family" >Фамилия*:</label>
+			<input type="text" id="family" name="family" value="Иванов" required></input>
+
+			<label for="patronymic" >Отчество:</label>
+
+			<input type="text" id="patronymic" name="surname" value="Александрович" ></input>
+
+		</fieldset>
+
+		<fieldset class="form-name__tel">
+
+			<legend>Контактная информация:</legend>
+
+			<label for="tel">Контактный телефон*:</label>
+			<input type="tel" name="tel" id="tel" value="Введите телефон:" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+			<input class="form-name__tel--img1" type="image" src="" alt="телефон">
+
+			<label for="email">"Электронная почта"</label>
+			<input type="email" name="email" id="email" value="Введите e-mail" required>
+			<input class="form-name__tel--img2" type="image" src="" alt="почта">
+		</fieldset>
+
+		<fieldset class="form-name__details">
+			<legend>Ваше общее впечатление:</legend>
+			<label>
+				<input type="radio" name="question-one" value="Скорее положительное" checked>
+				Скорее положительное
+			</label>
+
+			<label>
+				<input type="radio" name="question-one" value="Скорее отрицательное">
+				Скорее отрицательное
+			</label>
+
+			<label>
+				<input type="radio" name="question-one" value="Затрудняюсь ответить">
+				Затрудняюсь ответить
+			</label>
+		</fieldset>
+
+		<fieldset  class="form-name__places">
+
+			<legend>Посещенные достопримечательности:</legend>
+
+			<label for="diablo_bridge">
+				<input type="checkbox" id="diablo_bridge" name="question-two" value="Мост Дьявола" checked>
+				Мост Дьявола
+			</label>
+
+			<label for="slade-park">
+				<input type="checkbox" id="slade-park" name="question-two" value="Слайд-парк" checked>
+				Слайд-парк
+			</label>
+
+			<label for="gora">
+				<input type="checkbox" id="gora" name="question-two" value="Гора-Колокол" >
+				Гора-Колокол
+			</label>
+
+			<label for="red-scala">
+				<input type="checkbox" id="red-scala" name="question-two" value="Красные скалы" checked>
+				Красные скалы
+			</label>
+
+
+		</fieldset>
+
+		<fieldset class="form-name__emotions">
+			<legend>Опишите свои эмоции:</legend>
+
+			<textarea name="emotions"  rows="">Опишите подробно все свои восторги</textarea>
+
+
+		</fieldset>
+
+		<div class="form-name__button">
+			<input type="submit" value="Отправить отзыв"/>
+			Отправить отзыв
+		</div>
+
+
+	</form>
+
+</main>
+
+
+<footer class="page-footer">
+
+	<div class="page-footer__hashteg">
+		<h2>
+			#VISITSEDONA
+		</h2>
+	</div>
+	<p class="page-footer__social">
+<span class="social-links">
+<a class="social-link social-link--vk" href=""></a>
+<a class="social-link social-link--fb" href=""></a>
+<a class="social-link social-link--in" href=""></a>
+</span>
+	</p>
+	<p class="page-footer__copyright">
+		Разработано
+		<img class="page-footer__img" src=""/>
+	</p>
+</footer>
