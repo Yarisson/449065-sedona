@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
 <header class="page-header">
 	<nav class="main-nav">
 		<ul class="main-nav">
@@ -9,16 +17,14 @@
 
 		</ul>
 
-
-
 	</nav>
 
 	<div class="page-header__logo">
-		<img src="" widht="" height="" alt="">
+		<img src="" width="" height="" alt="">
 
 	</div>
-	<div class="page-header__photo1">
-		<img src="" widht="" height="" alt="">
+	<div class="page-header__photo-form">
+		<img src="" width="" height="" alt="">
 	</div>
 </header>
 
@@ -28,29 +34,29 @@
 
 	<section class="form-head">
 
-		<h2>  Оставьте свой отзыв  </h2>
+		<h2>Оставьте свой отзыв</h2>
 
 		<p>  Помогите нашим отелям стать лучше!
 			Оставьте отзыв о них, А также о
 			посещенных вами
-			достопримечательностях  </p>
+			достопримечательностях</p>
+
 	</section>
 
-	<form action="https://echo.htmlacademy.ru/" method="post" >
+	<form id="form-sedona" action="https://echo.htmlacademy.ru/" method="post">
 
 		<fieldset class="form-name__name">
 
 			<legend>Представьтесь:</legend>
 
 			<label for="name" >Имя*:</label>
-			<input type="text" id="name" name="name" value="Петр" required></input>
+			<input type="text" id="name" name="name" value="Имя" required/>
 
-			<label for="family" >Фамилия*:</label>
-			<input type="text" id="family" name="family" value="Иванов" required></input>
+			<label for="last-name" >Фамилия*:</label>
+			<input type="text" id="last-name" name="last-name" value="Фамилия" required/>
 
-			<label for="patronymic" >Отчество:</label>
-
-			<input type="text" id="patronymic" name="surname" value="Александрович" ></input>
+			<label for="middle-name" >Отчество:</label>
+			<input type="text" id="middle-name" name="middle-name" value="Отчество"/>
 
 		</fieldset>
 
@@ -89,23 +95,23 @@
 
 			<legend>Посещенные достопримечательности:</legend>
 
-			<label for="diablo_bridge">
-				<input type="checkbox" id="diablo_bridge" name="question-two" value="Мост Дьявола" checked>
+			<label for="diablo-bridge">
+				<input type="checkbox" id="diablo-bridge" name="impression" value="Мост Дьявола" checked/>
 				Мост Дьявола
 			</label>
 
-			<label for="slade-park">
-				<input type="checkbox" id="slade-park" name="question-two" value="Слайд-парк" checked>
+			<label for="slide-park">
+				<input type="checkbox" id="slide-park" name="impression" value="Слайд-парк" checked/>
 				Слайд-парк
 			</label>
 
-			<label for="gora">
-				<input type="checkbox" id="gora" name="question-two" value="Гора-Колокол" >
+			<label for="mountain">
+				<input type="checkbox" id="mountain" name="impression" value="Гора-Колокол"/>
 				Гора-Колокол
 			</label>
 
-			<label for="red-scala">
-				<input type="checkbox" id="red-scala" name="question-two" value="Красные скалы" checked>
+			<label for="red-cliff">
+				<input type="checkbox" id="red-cliff" name="impression" value="Красные скалы" checked/>
 				Красные скалы
 			</label>
 
@@ -115,7 +121,7 @@
 		<fieldset class="form-name__emotions">
 			<legend>Опишите свои эмоции:</legend>
 
-			<textarea name="emotions"  rows="">Опишите подробно все свои восторги</textarea>
+			<textarea form="form-sedona" name="emotions"  rows="">Опишите подробно все свои восторги</textarea>
 
 
 		</fieldset>
@@ -133,20 +139,25 @@
 
 <footer class="page-footer">
 
-	<div class="page-footer__hashteg">
+	<div class="page-footer__hashtag">
 		<h2>
 			#VISITSEDONA
 		</h2>
 	</div>
-	<p class="page-footer__social">
-<span class="social-links">
-<a class="social-link social-link--vk" href=""></a>
-<a class="social-link social-link--fb" href=""></a>
-<a class="social-link social-link--in" href=""></a>
-</span>
+
+  <p class="page-footer__social">
+      <span class="social-links">
+        <a class="social-link social-link--vk" href=""></a>
+        <a class="social-link social-link--fb" href=""></a>
+        <a class="social-link social-link--in" href=""></a>
+      </span>
 	</p>
+
 	<p class="page-footer__copyright">
 		Разработано
 		<img class="page-footer__img" src=""/>
 	</p>
+
 </footer>
+</body>
+</html>
