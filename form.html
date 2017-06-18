@@ -22,7 +22,7 @@
   </nav>
 
   <div class="page-header__logo">
-    <img src="img/logo-sedona-mobile.svg" width="120px" height="142px" alt="">
+    <img src="img/logo-sedona-mobile.svg" width="120*0.85px" height="142*0.85px" alt="">
 
   </div>
 
@@ -55,14 +55,17 @@
 
       <legend>Представьтесь:</legend>
 
-      <label for="name">Имя*:</label>
-      <input type="text" id="name" name="name" placeholder="Имя" required>
+      <p><label for="name">Имя*:</label>
+        <input type="text" id="name" name="name" placeholder="Имя" required>
+      </p>
 
-      <label for="last-name">Фамилия*:</label>
-      <input type="text" id="last-name" name="last-name" placeholder="Фамилия" required>
+      <p><label for="last-name">Фамилия*:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Фамилия" required>
+      </p>
 
-      <label for="middle-name">Отчество:</label>
-      <input type="text" id="middle-name" name="middle-name" placeholder="Отчество">
+      <p><label for="middle-name">Отчество:</label>
+        <input type="text" id="middle-name" name="middle-name" placeholder="Отчество">
+      </p>
 
     </fieldset>
 
@@ -70,57 +73,57 @@
 
       <legend>Контактная информация:</legend>
 
-      <label for="tel">Контактный телефон*:</label>
-      <input type="tel" name="tel" id="tel" placeholder="Введите телефон:"
+      <p><label for="tel">Контактный телефон*:</label></p>
+      <p><input type="tel" name="tel" id="tel" placeholder="Введите телефон:"
              pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-      <span class="contact-information contact-information__telephone"></span>
+        <span class="contact-information contact-information__telephone"></span></p>
 
-      <label for="email">Электронная почта*:</label>
-      <input type="email" name="email" id="email" placeholder="Введите e-mail" required>
-      <span class="contact-information contact-information__email"></span>
+      <p><label for="email">Электронная почта*:</label></p>
+      <p><input type="email" name="email" id="email" placeholder="Введите e-mail" required>
+        <span class="contact-information contact-information__email"></span></p>
     </fieldset>
 
     <fieldset class="form-review__details">
       <legend>Ваше общее впечатление:</legend>
-      <label>
+      <p><label>
         <input type="radio" name="impression" placeholder="Скорее положительное" checked>
         Скорее положительное
-      </label>
+      </label></p>
 
-      <label>
+      <p><label>
         <input type="radio" name="impression" placeholder="Скорее отрицательное">
         Скорее отрицательное
-      </label>
+      </label></p>
 
-      <label>
+      <p><label>
         <input type="radio" name="impression" placeholder="Затрудняюсь ответить">
         Затрудняюсь ответить
-      </label>
+      </label></p>
     </fieldset>
 
     <fieldset class="form-review__places">
 
       <legend>Посещенные достопримечательности:</legend>
 
-      <label for="diablo-bridge">
+      <p><label for="diablo-bridge">
         <input type="checkbox" id="diablo-bridge" name="places" placeholder="Мост Дьявола" checked>
         Мост Дьявола
-      </label>
+      </label></p>
 
-      <label for="slide-park">
+      <p><label for="slide-park">
         <input type="checkbox" id="slide-park" name="places" placeholder="Слайд-парк" checked>
         Слайд-парк
-      </label>
+      </label></p>
 
-      <label for="mountain">
+      <p><label for="mountain">
         <input type="checkbox" id="mountain" name="places" placeholder="Гора-Колокол">
         Гора-Колокол
-      </label>
+      </label></p>
 
-      <label for="red-cliff">
+      <p><label for="red-cliff">
         <input type="checkbox" id="red-cliff" name="places" placeholder="Красные скалы" checked>
         Красные скалы
-      </label>
+      </label></p>
 
 
     </fieldset>
