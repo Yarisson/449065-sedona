@@ -51,39 +51,39 @@
 
   <form class="form-review" id="form-sedona" action="https://echo.htmlacademy.ru/" method="post">
 
-    <fieldset class="form-review__name">
+    <fieldset class="form-review__name" style="border: none">
 
       <legend>Представьтесь:</legend>
 
       <p><label for="name">Имя*:</label>
-        <input type="text" id="name" name="name" placeholder="Имя" required>
+        <input type="text" id="name" name="name" placeholder="Имя" required style="border: none">
       </p>
 
       <p><label for="last-name">Фамилия*:</label>
-        <input type="text" id="last-name" name="last-name" placeholder="Фамилия" required>
+        <input type="text" id="last-name" name="last-name" placeholder="Фамилия" required style="border: none">
       </p>
 
       <p><label for="middle-name">Отчество:</label>
-        <input type="text" id="middle-name" name="middle-name" placeholder="Отчество">
+        <input type="text" id="middle-name" name="middle-name" placeholder="Отчество" style="border: none" >
       </p>
 
     </fieldset>
 
-    <fieldset class="form-review__tel">
+    <fieldset class="form-review__tel" style="border: none">
 
       <legend>Контактная информация:</legend>
 
       <p><label for="tel">Контактный телефон*:</label></p>
       <p><input type="tel" name="tel" id="tel" placeholder="Введите телефон:"
-             pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required style="border: none">
         <span class="contact-information contact-information__telephone"></span></p>
 
       <p><label for="email">Электронная почта*:</label></p>
-      <p><input type="email" name="email" id="email" placeholder="Введите e-mail" required>
+      <p><input type="email" name="email" id="email" placeholder="Введите e-mail" required style="border: none">
         <span class="contact-information contact-information__email"></span></p>
     </fieldset>
 
-    <fieldset class="form-review__details">
+    <fieldset class="form-review__details" style="border: none">
       <legend>Ваше общее впечатление:</legend>
       <p><label>
         <input type="radio" name="impression" placeholder="Скорее положительное" checked>
@@ -101,7 +101,7 @@
       </label></p>
     </fieldset>
 
-    <fieldset class="form-review__places">
+    <fieldset class="form-review__places" style="border: none">
 
       <legend>Посещенные достопримечательности:</legend>
 
@@ -128,10 +128,10 @@
 
     </fieldset>
 
-    <fieldset class="form-review__emotions">
+    <fieldset class="form-review__emotions" style="border: none">
       <legend>Опишите свои эмоции:</legend>
 
-      <textarea form="form-sedona" name="emotions" placeholder="подробное описание" rows="">Опишите подробно все свои восторги</textarea>
+      <textarea form="form-sedona" name="emotions" placeholder="подробное описание" rows="" style="border: none">Опишите подробно все свои восторги</textarea>
 
 
     </fieldset>
