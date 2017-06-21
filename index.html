@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,14 +21,16 @@
 
   </nav>
   <div class="page-header__logo">
-    <img src="" width="" height="" alt=""/>
+    <img src="img/logo-sedona-mobile.svg" width="102" height="120.7" alt="логотип">
 
   </div>
+
+  <span><span class="main-nav-toggler"></span></span>
+
   <div class="page-header__photo">
-    <img src="" width="" height="" alt=""/>
+    <img src="img/bg-back-mobile@1x.jpg" width="768" height="389" alt="Седона добро пожаловать">
   </div>
 
-  <span class="main-nav-toggler"><span></span></span>
 
 </header>
 
@@ -45,19 +49,21 @@
   <section class="main-reason">
 
     <section class="main-reason-decoration">
-      <h2>Настоящий городок</h2>
-      <p class="main-reason__roster">№1</p>
-      <p>седона не аттракцион для туристов,
-        там течет своя жизнь</p>
+      <div class="main-reason-decoration--color">
+        <h2>Настоящий городок</h2>
+        <p class="main-reason__roster">- №1 -</p>
+        <p>седона не аттракцион для туристов,
+          там течет своя жизнь</p>
+      </div>
       <div class="main-reason__image">
-        <img src="" width="" height="" alt="">
+        <img src="img/photo-city-mobile@1x.jpg" width="320" height="260" alt="фото города">
       </div>
 
 
       <div class="main-reason__tourist">
 
         <span class="main-reason__icon main-reason__tourist--house"></span>
-        <h3>Жилье</h3>
+        <h4>Жилье</h4>
         <p>
           Рекомендуем пожить в
           настоящем мотеле,
@@ -66,58 +72,58 @@
 
       </div>
 
-
       <div class="main-reason__tourist">
-        <span class="main-reason__icon main-reason__tourist--food"></span>
-        <h3>Еда</h3>
+        <span class="main-reason__icon main-reason__tourist--souvenirs"></span>
+        <h4>Сувениры</h4>
         <p>
           Не только китайского, но и
           местного производства!
         </p>
+
       </div>
 
       <div class="main-reason__tourist">
-        <span class="main-reason__icon main-reason__tourist--souvenirs"></span>
-        <h3>Сувениры</h3>
+        <span class="main-reason__icon main-reason__tourist--food"></span>
+        <h4>Еда</h4>
         <p>
           Всегда заказывайте
           фирменный бургер, вы не
           пожалеете!
-
         </p>
-
       </div>
 
     </section>
 
-    <section class="main-reason">
-      <h2>Там есть мост дьявола</h2>
-      <p class="main-reason__roster">№2</p>
-      <p>Да, по нему можно пройти!Если вы<br>
-        осмелитесь, конечно</p>
+    <section class="main-reason-decoration">
+      <div class="main-reason-decoration--color">
+        <h2>Там есть мост дьявола</h2>
+        <p class="main-reason__roster">- №2 -</p>
+        <p>Да, по нему можно пройти! Если вы
+          осмелитесь, конечно</p>
+      </div>
       <div class="main-reason__image">
-        <img src="" width="" height="" alt="">
+        <img src="img/photo-bridge-mobile@1x.jpg" width="320" height="260" alt="мост дьявола">
       </div>
     </section>
 
 
-    <section class="main-reason">
+    <section class="main-reason__simple">
       <h4>Небольшая площадь</h4>
-      <p class="main-reason__roster">№3</p>
+      <p class="main-reason__roster">- №3 -</p>
       <p>Все интересные места находятся
         очень близко</p>
     </section>
 
-    <section class="main-reason">
+    <section class="main-reason__simple main-reason--border">
       <h4>Красивая дорога</h4>
-      <p class="main-reason__roster">№4</p>
+      <p class="main-reason__roster">- №4 -</p>
       <p>Ехать в Седону из Лас-Вегаса
         совсем не скучно!</p>
     </section>
 
-    <section class="main-reason">
+    <section class="main-reason__simple">
       <h4>Мало туристов</h4>
-      <p class="main-reason__roster">№5</p>
+      <p class="main-reason__roster">- №5 -</p>
       <p>Большинство едет в Гранд Каньон
         и толпится там</p>
     </section>
@@ -135,7 +141,7 @@
     <button class="main-travel__button">Найти гостиницу</button>
 
     <div class="main-tavel__image">
-      <img src="" width="" height="" alt=""/>
+      <img src="img/bg-map-mobile@1x.jpg" width="320" height="350" alt="Карта Седоны">
     </div>
   </section>
 </main>
@@ -143,22 +149,22 @@
 
 <footer class="page-footer">
   <div class="page-footer__hashtag">
-    <h2>
+    <h2 class="page-footer__hashtag--color">
       #VISITSEDONA
     </h2>
   </div>
 
   <p class="page-footer__social">
     <span class="social-links">
-      <a class="social-link social-link--vk" href=""></a>
-      <a class="social-link social-link--fb" href=""></a>
-      <a class="social-link social-link--in" href=""></a>
+      <a class="social-link social-link--twitter" href="img/icon-twitter.svg"></a>
+      <a class="social-link social-link--facebook" href="img/icon-facebook.svg"></a>
+      <a class="social-link social-link--youtube" href="img/icon-youtube.svg"></a>
     </span>
   </p>
 
   <p class="page-footer__copyright">
     Разработано
-    <img class="page-footer__image" src="">
+    <img class="page-footer__image" src="img/htmlacademy.svg">
   </p>
 
 </footer>
