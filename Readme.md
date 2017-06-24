@@ -1,8 +1,8 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ярослав Колобков](https://up.htmlacademy.ru/adaptive/11/user/449065).
-* Наставник: `Алексей Хапов
-118459`.
+* Наставник: `Дмитрий Лебедев
+51265`.
 
 ---
 
