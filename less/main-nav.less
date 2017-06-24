@@ -4,11 +4,46 @@
   background-color: @navigation-color;
 
   &__list {
+    @media (min-width:768px) and (max-width:1200px) {
+      nth-child(1), nth-child(2) {
+      float:left;
+    }
+    nth-child(3), nth-child(4) {
+      float:right;
+    }
+    }
+
+    @media (min-width:1200px) {
+    nth-child(1), nth-child(2) {
+      float:left;
+    }
+    nth-child(3), nth-child(4) {
+      float:right;
+    }
+    }
+
     margin: 0;
     padding: 0;
 
   }
   &__item {
+    @media (min-width:320px) and (max-width:768px) {
+      width: auto;
+      float: none;
+      margin: 0;
+    }
+
+    @media (min-width:768px) and (max-width:1200px) {
+      display: inline;
+      width: 166.5px;
+
+    }
+
+    @media (min-width:1200px) {
+      display: inline;
+      width: 505px;
+    }
+
     list-style: none;
     vertical-align: middle;
     margin: 0;
